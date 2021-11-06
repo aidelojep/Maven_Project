@@ -1,5 +1,10 @@
 package com.my.maven.project.data.models;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+import java.time.LocalDateTime;
+
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class Comment extends Storable{
